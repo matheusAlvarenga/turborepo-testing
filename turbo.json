@@ -1,3 +1,21 @@
 {
-    "pipeline": {}
+    "pipeline": {
+        "dev": {
+            "cache": false
+        },
+        "test": {
+            "outputs": [
+                "coverage/**"
+            ],
+            "dependsOn": []
+        },
+        "build": {
+            "outputs": [
+                "build"
+            ],
+            "dependsOn": [
+                "^build"
+            ]
+        }
+    }
 }

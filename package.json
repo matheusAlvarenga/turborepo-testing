@@ -3,7 +3,7 @@
     "version": "0.0.0",
     "private": true,
     "workspaces": [
-        "apps/*",
+        "apps/frontend/*",
         "configs/*",
         "layout/*",
         "services/*",
@@ -12,7 +12,8 @@
     "scripts": {
         "build": "turbo run build",
         "dev": "turbo run dev --parallel",
-        "lint": "turbo run lint"
+        "lint": "turbo run lint",
+        "test": "turbo run test"
     },
     "devDependencies": {
         "turbo": "latest"
