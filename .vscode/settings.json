@@ -2,6 +2,7 @@
     "conventionalCommits.scopes": [
         "root",
         "apps",
+        "apps/frontend/admin",
         "configs",
         "configs/tsconfig",
         "layout",
