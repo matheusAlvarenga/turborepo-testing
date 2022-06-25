@@ -1,6 +1,11 @@
 {
     "conventionalCommits.scopes": [
         "root",
-        "configs"
+        "apps",
+        "configs",
+        "configs/tsconfig",
+        "layout",
+        "services",
+        "types"
     ]
 }
