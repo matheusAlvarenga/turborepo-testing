@@ -8,5 +8,8 @@
         "layout",
         "services",
         "types"
+    ],
+    "eslint.workingDirectories": [
+        "apps/frontend/admin",
     ]
 }
