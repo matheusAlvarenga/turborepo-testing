@@ -17,24 +17,27 @@
         "web-vitals": "^2.1.4"
     },
     "devDependencies": {
+        "eslint-config-custom-cra": "*",
+        "prettier": "^2.7.1",
         "tsconfig": "*"
     },
     "scripts": {
         "dev": "react-scripts start",
         "build": "react-scripts build",
         "test": "react-scripts test --watchAll=false",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "lint": "eslint ."
     },
     "browserslist": {
         "production": [
-        ">0.2%",
-        "not dead",
-        "not op_mini all"
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
         ],
         "development": [
-        "last 1 chrome version",
-        "last 1 firefox version",
-        "last 1 safari version"
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
         ]
     }
 }
