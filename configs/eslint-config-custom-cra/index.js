@@ -35,7 +35,8 @@ module.exports = {
         "react/function-component-definition": [2, { "namedComponents": "arrow-function" }],
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "react/jsx-props-no-spreading": "off",
-        "@typescript-eslint/no-explicit-any": "off"
+        "@typescript-eslint/no-explicit-any": "off",
+        "react/require-default-props": "off"
     },
     "overrides": [
         {
@@ -55,6 +56,7 @@ module.exports = {
     ],
     "ignorePatterns": [
         "build/*",
-        ".turbo/*"
+        ".turbo/*",
+        "dist/*"
     ]
 }
