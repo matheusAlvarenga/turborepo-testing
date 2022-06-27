@@ -16,6 +16,7 @@
         "test": "turbo run test"
     },
     "devDependencies": {
+        "eslint": "^8.18.0",
         "turbo": "latest"
     },
     "engines": {
