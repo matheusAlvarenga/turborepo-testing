@@ -18,7 +18,11 @@
             ]
         },
         "lint": {
-          "outputs": []
+            "outputs": []
+        },
+        "storybook": {
+            "outputs": [],
+            "cache": false
         }
     }
 }
