@@ -5,6 +5,7 @@
     "main": "index.js",
     "files": [
         "base.json",
-        "cra-app.json"
+        "cra-app.json",
+        "tsdx-react-app.json"
     ]
 }

@@ -2,15 +2,16 @@
     "name": "web-components",
     "version": "0.1.0",
     "license": "MIT",
-    "main": "dist/index.js",
-    "typings": "dist/index.d.ts",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
     "files": [
         "dist",
         "src"
     ],
     "scripts": {
-        "dev": "tsdx watch",
-        "build": "tsdx build",
+        "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+        "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
         "test": "tsdx test --passWithNoTests",
         "lint": "eslint --fix --ext ts,tsx .",
         "storybook": "start-storybook -p 6006",
@@ -30,15 +31,16 @@
         "@types/react": "^18.0.14",
         "@types/react-dom": "^18.0.5",
         "babel-loader": "^8.2.5",
+        "eslint-config-custom-cra": "*",
         "husky": "^8.0.1",
+        "prettier": "^2.7.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-is": "^18.2.0",
+        "tsconfig": "*",
         "tsdx": "^0.14.1",
         "tslib": "^2.4.0",
-        "typescript": "^4.7.4",
-        "eslint-config-custom-cra": "*",
-        "tsconfig": "*",
-        "prettier": "^2.7.1"
+        "tsup": "^6.1.2",
+        "typescript": "^4.7.4"
     }
 }
