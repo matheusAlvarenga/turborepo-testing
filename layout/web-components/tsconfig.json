@@ -7,7 +7,5 @@
         "node_modules",
         "dist",
         ".storybook",
-        "./test",
-        "./stories"
     ]
 }

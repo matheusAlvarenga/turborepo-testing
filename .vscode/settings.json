@@ -6,6 +6,7 @@
         "configs",
         "configs/tsconfig",
         "layout",
+        "layout/web-components",
         "services",
         "types"
     ],
