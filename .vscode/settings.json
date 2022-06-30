@@ -12,6 +12,7 @@
     ],
     "eslint.workingDirectories": [
         "apps/frontend/admin",
+        "apps/backend/cms",
         "layout/web-components"
     ]
 }

@@ -4,6 +4,7 @@
     "private": true,
     "workspaces": [
         "apps/frontend/*",
+        "apps/backend/*",
         "configs/*",
         "layout/*",
         "services/*",
