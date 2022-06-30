@@ -1,0 +1,16 @@
+{
+    "name": "eslint-config-custom-nest",
+    "version": "0.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "@typescript-eslint/eslint-plugin": "^4.19.0",
+        "@typescript-eslint/parser": "^4.19.0",
+        "eslint-config-prettier": "^8.1.0",
+        "eslint-plugin-import-helpers": "^1.1.0",
+        "eslint-plugin-prettier": "^3.3.1"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
