@@ -14,6 +14,7 @@
     "eslint.workingDirectories": [
         "apps/frontend/admin",
         "apps/backend/cms",
-        "layout/web-components"
+        "layout/web-components",
+        "services/api",
     ]
 }
