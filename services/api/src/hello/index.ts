@@ -15,7 +15,7 @@ export const mapHelloMessage = (data: HelloApiResponse): HelloMessage => {
 };
 
 export const getHelloMessage = async () => {
-  const response: HelloApiResponse = await clientApi.get("/");
+  const { data } = await clientApi.get<HelloApiResponse>("/");
 
-  return mapHelloMessage(response);
+  return mapHelloMessage(data);
 };

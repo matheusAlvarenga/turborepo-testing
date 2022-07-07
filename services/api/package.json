@@ -11,8 +11,8 @@
         "src"
     ],
     "scripts": {
-        "dev": "tsup src/index.ts --format esm --watch --dts --external node",
-        "build": "tsup src/index.ts --format esm,cjs --dts --external node",
+        "dev": "rm -rf dist && tsc -w --outDir dist",
+        "build": "rm -rf dist && tsc --outDir dist",
         "lint": "eslint --fix --ext ts .",
         "prepare": "tsdx build"
     },
