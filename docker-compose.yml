@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  backend-cms:
+    container_name: backend-cms-container
+    build:
+      context: ./apps/backend/cms
+      dockerfile: Dockerfile
+    hostname: backend-cms-hostname
+    ports:
+      - 5000:5000
+    volumes:
+      - ./:/monorepo
