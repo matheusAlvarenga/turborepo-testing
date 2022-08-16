@@ -12,6 +12,7 @@
     ],
     "scripts": {
         "build": "turbo run build",
+        "build:front:admin": "turbo run build:front:admin",
         "dev": "turbo run dev --no-cache --parallel --continue",
         "lint": "turbo run lint",
         "test": "turbo run test",

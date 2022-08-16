@@ -27,6 +27,15 @@
                 "^build"
             ]
         },
+        "build:front:admin": {
+            "outputs": [
+                "build",
+                "dist"
+            ],
+            "dependsOn": [
+                "^build:front:admin"
+            ]
+        },
         "lint": {
             "outputs": []
         },

@@ -13,6 +13,7 @@
     "scripts": {
         "dev": "rm -rf dist && tsc -w --outDir dist",
         "build": "rm -rf dist && tsc --outDir dist",
+        "build:front:admin": "yarn build",
         "lint": "eslint --fix --ext ts .",
         "prepare": "tsdx build"
     },
